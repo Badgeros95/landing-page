@@ -47,7 +47,7 @@ body {
     flex-direction: column;
     padding: 18px;
     gap: 12px;
-    flex-grow: 0;
+    flex-grow: 1;
   }
   .main-text {
     font-size: 48px;
@@ -89,11 +89,18 @@ body {
   .mid2 {
     display: flex;
     flex-direction: column;
-   
+    flex-grow: 1;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
   }
   .contact {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     
   }
 .content {
