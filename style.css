@@ -40,5 +40,23 @@ body {
   ul {
     list-style: none;
   }
-
-  
+  .hero {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    gap: 12px;
+  }
+  .main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    display: flex;
+    width: 500px;
+  }
+  .text-under-main {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    width: 500px;
+  }
