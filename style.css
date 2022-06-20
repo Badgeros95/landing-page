@@ -34,8 +34,10 @@ body {
     gap: 18px;
     margin-right: 18px;
   }
-  img {
+  .logo {
     margin: 24px;
+    height: 50px;
+    width: 80px;
   }
   a {
     text-decoration: none;
@@ -48,9 +50,23 @@ body {
     background: #1f2937;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 48px;
     gap: 24px;
+    flex-grow: 1;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    gap: 48px;
+    flex-grow: 1;
+  }
+  .heroimg {
+    display: flex; 
+    align-self: flex-end;
+    width: auto;
+    height: auto;
     flex-grow: 1;
   }
   .main-text {
@@ -76,10 +92,12 @@ body {
   }
   .mid1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content:center;
     flex-grow: 1;
+    gap: 24px;
+    padding: 24px;
   }
   .infomid {
     font-size: 36px;
@@ -89,6 +107,10 @@ body {
   .text {
     font-size: 18px;
     color: #1F2937;
+  }
+  img{
+    height: 300px;
+    width: 300px;
   }
   .mid2 {
     display: flex;
