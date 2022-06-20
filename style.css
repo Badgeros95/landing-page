@@ -96,15 +96,16 @@ body {
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
+    padding: 150px;
   }
   .contact {
     display: flex;
     align-items: center;
     margin: 98px;
     border-radius: 8px;
+
   }
   .contactin {
-    width: 600px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -112,6 +113,9 @@ body {
     color: #e5e7eb;
     justify-content: center;
     align-items: center;
+    border-radius: 18px;
+    padding: 48px;
+    gap: 24px   
   }
   .top-text {
     font-size: 24px;
@@ -120,10 +124,7 @@ body {
   .bottom-text{
     font-size: 18px;
   }
-  .button-low {
-    border-color: #e5e7eb;
-    
-  }
+ 
 .content {
     display: flex;
     flex-direction: column;
